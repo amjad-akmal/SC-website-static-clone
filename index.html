@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>static clone-SC</title>
+  </head>
+  <body>
+    <div class="position-relative w-100">
+      <nav
+        class="main-nav col-10 position-fixed fixed-top text-light d-flex justify-content-between"
+      >
+        <img
+          src="https://supercell.com/_next/static/media/supercell_logo.38ec5826.webp"
+          alt="supercell logo"
+          class="suoercel-logo h-100 p-3"
+        />
+        <div class="w-100 d-flex justify-content-between">
+          <div class="navbar-texts">
+            <ul class="d-flex align-items-center h-100 gap-4">
+              <li><a class="active" href="#">Games</a></li>
+              <li><a class="" href="#">Careers</a></li>
+              <li><a class="" href="#">Support</a></li>
+              <li><a class="" href="#">About Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-icons d-flex gap-5 h-100 position-relative">
+            <ul class="d-flex align-items-center h-100 gap-4">
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/supercell_creators_grey.f699541d.svg"
+                    alt="creators link icon"
+                    class="jh"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/supercell_make_grey.964b2d8d.svg"
+                    alt="make link icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/supercell_id_grey.62affa0b.svg"
+                    alt="creators link icon"
+                /></a>
+              </li>
+            </ul>
+            <div class="search align-self-center p-3 me-3 d-flex">
+              <div class="vl">&nbsp;</div>
+              <i class="search-btn bi bi-search mt-3"></i>
+            </div>
+
+            <!-- searchbar -->
+            <input
+              class="ip-field position-absolute"
+              type="text"
+              placeholder="search"
+            />
+          </div>
+        </div>
+        <!-- mobole nav icon -->
+      </nav>
+
+      <section class="hero-section position-relative">
+        <picture>
+          <img
+            src="https://supercell.com/_next/static/media/frontpage_hero.cfb8e642.webp"
+            alt=""
+            class="hero-img"
+          />
+        </picture>
+
+        <div class="hero-textbox text-center position-absolute">
+          <h1>SUPERCELL</h1>
+          <p>
+            Makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale and
+            Brawl Stars.
+          </p>
+        </div>
+        <a class="latest-btn" href="#news-section"
+          >SEE LATEST<i class="bi bi-arrow-down"></i
+        ></a>
+      </section>
+
+      <section
+        id="news-section"
+        class="news-section container-fluid row mt-5 gap-4"
+      >
+        <article class="news-card col-md-5 col-12">
+          <img
+            src="https://supercell.com/images/fcc8b5067c9e615924952bb576db7f55/pride-blog-thumbnail-1500x1130.webp"
+            alt=""
+          />
+          <h2 class="card-heading">NEWS</h2>
+          <a href="#" class="card-link"
+            >Better Games Together: One Year On And Going Strong</a
+          >
+        </article>
+        <article class="news-card col-md-5 col-12">
+          <img
+            src="https://supercell.com/images/81f417307b2f84953c52f35052f7e3a8/news_thumbnail_gdc_1.webp"
+            alt=""
+          />
+          <h2 class="card-heading">NEWS</h2>
+          <a href="#" class="card-link">Looking Forward to Meeting You</a>
+        </article>
+        <article class="news-card col-md-5 col-12">
+          <img
+            src="https://supercell.com/images/36b92bb0da86be9a7064201d2cd7a2ca/meet-clash-thumbnail.webp"
+            alt=""
+          />
+          <h2 class="card-heading">CAREERS</h2>
+          <a href="#" class="card-link">The Clash of Clans Team Welcomes You</a>
+        </article>
+        <article class="news-card col-md-5 col-12">
+          <img
+            src="https://supercell.com/images/288ad623c2f39fc4f3805bdb43bd44eb/ilkka2023_chapter_clashhorizon_thumb.webp"
+            alt=""
+          />
+          <h2 class="card-heading">ILKKA'S</h2>
+          <a href="#" class="card-link">The Next Chapter of Supercell</a>
+        </article>
+        <article class="news-card col-md-5 col-12">
+          <img
+            src="https://supercell.com/images/75163cf0cab7f1a8fe47fed52014cb25/article_thumb_everdale_metacore_1.webp"
+            alt=""
+          />
+          <h2 class="card-heading">NEWS</h2>
+          <a href="#" class="card-link"
+            >BEverdale’s story continues, thanks to Metacore</a
+          >
+        </article>
+        <article class="news-card col-md-5 col-12">
+          <img
+            src="https://supercell.com/images/cf7c4bb33bb89f159050713a024e4dc1/article_thumb_brawlwc2022.webp"
+            alt=""
+          />
+          <h2 class="card-heading">NEWS</h2>
+          <a href="#" class="card-link"
+            >The Brawl Stars World Finals Are Over, and We Have a Winner!</a
+          >
+        </article>
+        <a class="news-btn" href="#">NEWS ARCHIVE</a>
+      </section>
+
+      <section class="games-section">
+        <div class="see-games d-flex align-items-center justify-content-around">
+          <div class="see-games-text container">
+            <h2>GAMES</h2>
+            <p>
+              Our dream is to create games that as many people as possible play
+              for years and that are remembered forever.
+            </p>
+            <a href="#" class="see-games-btn">SEE GAMES</a>
+          </div>
+          <div class="see-games-img container">
+            <img
+              src="https://supercell.com/_next/static/media/nita.76e85eac.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="see-careers d-flex align-items-center justify-content-around"
+        >
+          <div class="see-careers-img container">
+            <img
+              src="https://supercell.com/_next/static/media/miniPekka.de55815b.webp"
+              alt=""
+            />
+          </div>
+          <div class="see-careers-text container">
+            <h2>CAREERS</h2>
+            <p>
+              Join us to create games that excite and help our players around
+              the world make memories.
+            </p>
+            <a href="#" class="see-careers-btn">SEE CAREERS</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="articles-section"></section> -->
+
+      <footer class="footer-section text-light pt-5">
+        <div class="d-flex justify-content-between">
+          <div class="social-links">
+            <p>Follow us on</p>
+            <ul class="social-icons d-flex align-items-center gap-3">
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/some_youtube.6b5d0c55.webp"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/some_facebook.49531fac.webp"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/some_instagram.2eaa320b.webp"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/some_twitter.c380be0d.webp"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/some_linkedin.974ae044.webp"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/some_glassdoor.73a81f1e.webp"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="download-links">
+            <ul class="d-flex align-items-center gap-3">
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/appstore.c44572b2.webp"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://supercell.com/_next/static/media/googleplay.4ced544f.webp"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="more-details">
+          <ul class="d-flex gap-3">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Parent's Guide</a></li>
+            <li><a href="#">Safe and Fair Play Policy</a></li>
+            <li><a href="#">Other Legal Docs</a></li>
+            <li><a href="#">For Media</a></li>
+            <li><a href="#">Manage Cookies</a></li>
+          </ul>
+        </div>
+        <div class="d-flex justify-content-between">
+          <address class="footer-adress d-flex flex-column">
+            <span>Supercell Oy</span>
+            <span>Jätkäsaarenlaituri 1</span>
+            <span>00180 Helsinki</span>
+            <span>Finland</span>
+          </address>
+          <a class="align-self-end" href="#"
+            ><img
+              src="https://supercell.com/_next/static/media/supercell_logo.38ec5826.webp"
+              alt="supercell icon"
+              class="footer-SC-icon"
+          /></a>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
