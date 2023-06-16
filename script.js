@@ -7,3 +7,9 @@ search.addEventListener("click", () => {
   searchField.classList.toggle("active");
   searchField.focus();
 });
+
+const navBtn = document.querySelector(".nav-bar-btn");
+
+navBtn.addEventListener("click", () => {
+  document.querySelector(".main-nav").classList.toggle("nav-open");
+});

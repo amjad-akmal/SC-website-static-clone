@@ -40,6 +40,13 @@ body {
   color: #fff;
 }
 
+.nav-bar-btn {
+  cursor: pointer;
+  margin-left: -180px;
+  display: none;
+  width: 40px;
+}
+
 ul li {
   list-style: none;
 }
